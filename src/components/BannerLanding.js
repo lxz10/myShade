@@ -4,11 +4,11 @@ const BannerLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Landing</h1>
+            <img src="src\assets\images\logo.png" alt="" />
+                <h1>Upload your image to get started</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+            <button className="button icon">Choose Image</button>
             </div>
         </div>
     </section>
