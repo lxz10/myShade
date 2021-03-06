@@ -8,10 +8,12 @@ const BannerLanding = (props) => (
                 <h1>Upload your image to get started</h1>
             </header>
             <div className="content">
-            <button className="button icon">Choose Image</button>
             </div>
         </div>
     </section>
 )
 
+
+
 export default BannerLanding
+//
