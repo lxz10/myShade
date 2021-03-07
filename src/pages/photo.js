@@ -9,11 +9,11 @@ import pic01 from '../assets/images/prof1.jpg'
 import pic02 from '../assets/images/prof2.jpg'
 import pic03 from '../assets/images/prof3.jpg'
 
-const Landing = (props) => (
+const Photo = (props) => (
     <Layout>
         <Helmet>
-            <title>myShade</title>
-            <meta name="description" content="Landing Page" />
+            <title>Upload photo - myShade</title>
+            <meta name="description" content="Photo Page" />
         </Helmet>
 
         <BannerUpload />
@@ -46,4 +46,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default Photo

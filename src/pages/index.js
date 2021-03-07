@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="myShade"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
                             Are you ready to feel empowered?
                             </p>
                             <ul className="actions">
-                                <li><Link to="/elements" className="button">Discover The Shades</Link></li>
+                                <li><Link to="/discover" className="button">Discover The Shades</Link></li>
                             </ul>
                         </div>
                     </section>
@@ -47,40 +47,40 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <p>"Looking good makes me feel more confident and like I can take on the stress. Plus, even if you had a bad day, at least you looked great so that's a nice consolation."</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Nyane Lebajoa</h3>
                                 <p>Fashion blogger</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Nabela Noor</h3>
                                 <p>Creator, activist, entrepreneur</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article>
                             <header className="major">
                                 <p>"Makeup lets me channel my personality, and reflect what I am feeling or thinking."</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article>
                             <header className="major">
                                 <p>"I started using makeup and it's honestly so empowering. You can make your face look like whatever you want it to, and it's like a painting."</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Shayla Mitchell</h3>
                                 <p>Beauty vlogger</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photo" className="link primary"></Link>
                         </article>
                     </section>
                     

@@ -59,11 +59,11 @@ import pic4 from '../assets/images/pic1/pic4.jpg'
 import pic5 from '../assets/images/pic1/pic5.jpg'
 import pic6 from '../assets/images/pic1/pic6.jpg'
 
-const Elements = (props) => (
+const Discover = (props) => (
     <Layout>
         <Helmet>
-            <title>Discover Page</title>
-            <meta name="description" content="Elements Page" />
+            <title>Discover - myShade</title>
+            <meta name="description" content="Discover Page" />
         </Helmet>
 
         <div id="main" className="alt">
@@ -146,4 +146,4 @@ const Elements = (props) => (
     </Layout>
 )
 
-export default Elements
+export default Discover

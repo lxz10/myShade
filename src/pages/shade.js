@@ -19,11 +19,11 @@ import minted from '../assets/images/feed/pr7.jpg'
 import pic02 from '../assets/images/youtube2.jpeg'
 import pic03 from '../assets/images/youtube3.jpg'
 
-const Generic = (props) => (
+const Shade = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
+            <title>Your Shade - myShade</title>
+            <meta name="description" content="Shade Page" />
         </Helmet>
 
         <div id="main" className="alt">
@@ -40,8 +40,8 @@ const Generic = (props) => (
                             </div>
                         </div>
                         <ul className="actions">
-                            <li><Link to="/elements" className="button">Discover more shades</Link></li>
-                            <li><Link to="/landing" className="button special">Share with a friend</Link></li>
+                            <li><Link to="/discover" className="button">Discover more shades</Link></li>
+                            <li><Link to="/photo" className="button special">Share with a friend</Link></li>
                         </ul>
                     </header>
                     
@@ -119,5 +119,5 @@ const Generic = (props) => (
     </Layout>
 )
 
-export default Generic
+export default Shade
 //<span className="image main"><img src={pic11} alt="" /></span>

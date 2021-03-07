@@ -10,7 +10,7 @@ const Banner = (props) => (
             <div className="content">
                 <p>Find the right shade for your foundation.</p>
                 <ul className="actions">
-                    <li><Link to="/landing" className="button next scrolly">Get Started</Link></li>
+                    <li><Link to="/photo" className="button next scrolly">Get Started</Link></li>
                 </ul>
             </div>
         </div>
