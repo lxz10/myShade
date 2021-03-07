@@ -124,19 +124,19 @@
 
     &:nth-child(6n - 3) {
       &:before {
-        background-color: _palette(accent3);
+        background-color: _palette(accent6);
       }
     }
 
     &:nth-child(6n - 2) {
       &:before {
-        background-color: _palette(accent4);
+        background-color: _palette(accent5);
       }
     }
 
     &:nth-child(6n - 1) {
       &:before {
-        background-color: _palette(accent5);
+        background-color: _palette(accent4);
       }
     }
 

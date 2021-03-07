@@ -181,7 +181,7 @@
 	#bannerplain {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
+		@include padding(4em, 0, (5em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -213,6 +213,10 @@
 
 		h1 {
 			font-size: 3.25em;
+		}
+
+		figure figcaption {
+			text-align: center;
 		}
 
 		> .inner {

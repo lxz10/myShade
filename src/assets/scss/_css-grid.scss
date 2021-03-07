@@ -8,10 +8,84 @@
 
 	.grid-wrapper {
 		display: grid;
-		grid-gap: 0 2.25em;
-		grid-template-columns: repeat(8, 1fr);
+		row-gap: 0.25em;
+		column-gap: 0.25em;
+		grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 		margin: 0 auto;
 		width: 100%;
+		
+	}
+	div.scrollmenu {
+		background-color: #ac8e83;
+		overflow: auto;
+		white-space: nowrap;
+	}
+	div.scrollmenu a {
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px;
+		text-decoration: none;
+	}
+	
+	div.scrollmenu a:hover {
+		background-color: #bda49a;
+	}
+	.grid-wrapper1 {
+		display: grid;
+		grid-gap: 0 2em;
+		grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+		margin-left: 1.7em;
+		width: 100%;
+		
+	}
+
+	
+	.tone {
+		margin: auto;
+		display: block;
+		border-radius: 50%;
+		height: 150px;
+		width: 150px;
+	}
+
+	
+
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-family: 'Brush Script MT';
+		font-size: 20px;
+		color: rgba(98, 33, 33, 0.979);
+		transform: translate(-50%, -50%);
+	}
+	.centered1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-family: 'Brush Script MT';
+		font-size: 20px;
+		color: rgba(150, 111, 111, 0.979);
+		transform: translate(-50%, -50%);
+	}
+	.centered2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-family: 'Brush Script MT';
+		font-size: 20px;
+		color: rgba(138, 96, 96, 0.979);
+		transform: translate(-50%, -50%);
+	}
+	.centered3 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		font-family: 'Brush Script MT';
+		font-size: 20px;
+		color: rgba(89, 49, 49, 0.979);
+		transform: translate(-50%, -50%);
 	}
 
 	/* Generate Columns 1 through 12 */

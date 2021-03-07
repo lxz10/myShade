@@ -10,6 +10,7 @@
 		&.special {
 			text-align: center;
 		}
+
 	}
 
 	header {
@@ -18,10 +19,12 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
+		
 
 			> :first-child {
 				margin-bottom: 0;
 				width: calc(100% + 0.5em);
+				text-align: center;
 
 				&:after {
 					content: '';
@@ -30,6 +33,7 @@
 					height: 2px;
 					margin: 0.325em 0 0.5em 0;
 					width: 100%;
+					text-align: center;
 				}
 			}
 
@@ -39,73 +43,24 @@
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
 				text-transform: uppercase;
+				text-align: center;
 			}
 
 			body.is-ie & {
 				> :first-child {
 					&:after {
 						max-width: 9em;
+						text-align: center;
 					}
 				}
 
 				> h1 {
 					&:after {
 						max-width: 100% !important;
+						text-align: center;
 					}
 				}
 			}
 		}
 
-		&.minor {
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
-
-			> :first-child {
-				margin-bottom: 200;
-				width: calc(100% + 0.5em);
-
-				&:after {
-					content: '';
-					background-color: _palette(fg-bold);
-					display: block;
-					height: 2px;
-					margin: 0.325em 0 0.5em 0;
-					width: 100%;
-				}
-			}
-
-			> p {
-				font-size: 0.7em;
-				font-weight: _font(weight-bold);
-				letter-spacing: _font(letter-spacing-alt);
-				margin-bottom: 0;
-				text-transform: uppercase;
-			}
-
-			body.is-ie & {
-				> :first-child {
-					&:after {
-						max-width: 9em;
-					}
-				}
-
-				> h1 {
-					&:after {
-						max-width: 100% !important;
-					}
-				}
-			}
-		}
-
-		@include breakpoint(small) {
-			&.major {
-				> p {
-					br {
-						display: none;
-					}
-				}
-			}
-		}
 	}

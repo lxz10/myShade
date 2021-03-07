@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgPrev from '../components/ImgPrev'
+import ColourPicker from '../components/ColourPicker'
 
 const BannerUpload = (props) => (
     <section id="bannerplain" lassName="style2">
@@ -8,8 +9,14 @@ const BannerUpload = (props) => (
             <img src="src\assets\images\logo.png" alt="" />
             <figure>
             <ImgPrev />
-            <figcaption>Upload a profile image</figcaption>
+            <figcaption>1. Upload a profile image <br />
+            2. Use the colour picker to find your shade <br />
+            3. Click on one of our shades to see products
+            </figcaption>
             </figure>
+            <div className="colourPicker">    
+                <ColourPicker /> 
+            </div>
             </div>
         </div>
     </section>
