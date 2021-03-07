@@ -102,6 +102,22 @@
 			&.alt {
 				opacity: 0.75;
 			}
+
+		}
+
+		&.major-dark {
+			height: 75vh;
+			min-height: 30em;
+			max-height: 50em;
+
+			&.alt {
+				opacity: 0.75;
+			}
+
+			h1, h2, h3, h4, p {
+				color: _palette(accent4);
+			}
+
 		}
 
 		&.style1 { &:after { background-color: _palette(accent1); } }

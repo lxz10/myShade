@@ -10,8 +10,12 @@ import n5 from '../assets/images/feed/n5.jpg'
 import a from '../assets/images/feed/1.jpg'
 import b from '../assets/images/feed/nowaste.png'
 import ob from '../assets/images/feed/ob.png'
-import uoma from '../assets/images/feed/uoma.jpg'
-import minted from '../assets/images/feed/minted.jpg'
+import uoma from '../assets/images/feed/pr1.jpg'
+import in4 from '../assets/images/feed/in4.jpg'
+import in3 from '../assets/images/feed/in3.jpg'
+import atmos from '../assets/images/feed/pr5.jpg'
+import atmos1 from '../assets/images/feed/pr2.jpg'
+import minted from '../assets/images/feed/pr7.jpg'
 import pic02 from '../assets/images/youtube2.jpeg'
 import pic03 from '../assets/images/youtube3.jpg'
 
@@ -53,11 +57,21 @@ const Generic = (props) => (
                             <Link to="https://www.instagram.com/kiitana/?hl=en" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${uoma})`}}>
+                            <Link to="https://www.rarebeauty.com/products/liquid-touch-weightless-foundation?variant=34493778919559" className="link primary">
+                                <button className="button special2">460W Rare Beauty</button>
+                            </Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${minted})`}}>
+                            <Link to="https://www.mentedcosmetics.com/products/skin-by-mented?variant=18208782450753" className="link primary">
+                                <button className="button special2">610 Origins</button>
+                            </Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${n5})`}}>
                             <header className="major">
-                                <h3>UOMA - Say What?! Foundation</h3>
-                                <p>Click here to buy</p>
+                                <h3>Nikkie Tutorials</h3>
+                                <p>Full Face Using ONLY Black-Owned Makeup Brands</p>
                             </header>
-                            <Link to="https://uomabeauty.co.uk/products/say-what-foundation?variant=37128480194744" className="link primary"></Link>
+                            <Link to="https://youtu.be/kM1sLvik2ho" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${ob})`}}>
                             <header className="major">
@@ -69,19 +83,31 @@ const Generic = (props) => (
                         <article style={{backgroundImage: `url(${b})`}}>
                             <Link to="https://www.goingzerowaste.com/blog/10-zero-waste-makeup-brands/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${minted})`}}>
+                        <article style={{backgroundImage: `url(${in4})`}}>
                             <header className="major">
-                                <h3>Skin by Minted</h3>
-                                <p>Click here to buy</p>
+                                <h3>Robert Welsh</h3>
+                                <p>How To Prep Oily Skin For Makeup</p>
                             </header>
-                            <Link to="https://www.mentedcosmetics.com/products/skin-by-mented?variant=18208782450753" className="link primary"></Link>
+                            <Link to="https://youtu.be/u8bkTsosCVE" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${n5})`}}>
+                        
+                        <article style={{backgroundImage: `url(${atmos1})`}}>
+                                <Link to="https://www.beautylish.com/s/becca-light-shifter-finishing-veil-atmospheric-5" className="link primary">
+                                <button className="button special2">Atmospheric 5 Becca Cosmetics</button>
+                                </Link>
+                        </article>
+                        
+                        <article style={{backgroundImage: `url(${atmos})`}}>
+                            <Link to="https://www.superdrug.com/Make-Up/Face/Foundation/Liquid-Foundation/L'Oreal-Paris-True-Match-Foundation-8-N-Cappuccino-30ml/p/546209" className="link primary">
+                                <button className="button special2">Cappuccino 125 L'Oreal</button>
+                            </Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${in3})`}}>
                             <header className="major">
-                                <h3>Nikkie Tutorials</h3>
-                                <p>Full Face Using ONLY Black-Owned Makeup Brands</p>
+                                <h3>Jessica Pimentel</h3>
+                                <p>5 Best Natural-Looking Foundations</p>
                             </header>
-                            <Link to="https://youtu.be/kM1sLvik2ho" className="link primary"></Link>
+                            <Link to="https://youtu.be/-LnA6GjA_HA" className="link primary"></Link>
                         </article>
                     </section>
                     

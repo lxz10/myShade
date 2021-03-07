@@ -8,9 +8,11 @@
 
 	.button {
 		border: solid 2px !important;
+		
 	}
 
 		.button.next {
+			
 			padding-right: 1.75em;
 		}
 

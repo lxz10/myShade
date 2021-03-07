@@ -17,6 +17,7 @@
 			'box-shadow #{_duration(transition)} ease-in-out',
 			'color #{_duration(transition)} ease-in-out'
 		));
+		
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
@@ -121,6 +122,27 @@
 
 			&:active {
 				background-color: desaturate(darken(_palette(highlight), 15), 5);
+			}
+		}
+
+		&.special2 {
+			background-color: _palette(fg-bold);
+			box-shadow: none;
+			color: _palette(bg);
+			margin-left: 30px;
+			margin-right: 30px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+
+			&:hover, &:active {
+				background-color: _palette(accent3);
+				color: _palette(fg) !important;
+			}
+
+			&:active {
+				background-color: desaturate(darken(_palette(accent3), 15), 5);
 			}
 		}
 
