@@ -8,6 +8,7 @@ const BannerLanding = (props) => (
                 <h1>Upload your image to get started</h1>
             </header>
             <div className="content">
+                <ShadeFinder />
             </div>
         </div>
     </section>

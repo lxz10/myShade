@@ -112,6 +112,7 @@
 			background-color: _palette(fg-bold);
 			box-shadow: none;
 			color: _palette(bg);
+			float: right;
 
 			&:hover, &:active {
 				background-color: _palette(highlight);
@@ -121,6 +122,10 @@
 			&:active {
 				background-color: desaturate(darken(_palette(highlight), 15), 5);
 			}
+		}
+
+		&.right {
+			float: right;
 		}
 
 		&.disabled,

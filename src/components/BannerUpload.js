@@ -1,6 +1,7 @@
 import React from 'react'
 import ImgPrev from '../components/ImgPrev'
 import ColourPicker from '../components/ColourPicker'
+import ShadeFinder from '../components/ShadeFinder'
 
 const BannerUpload = (props) => (
     <section id="bannerplain" lassName="style2">
@@ -15,7 +16,7 @@ const BannerUpload = (props) => (
             </figcaption>
             </figure>
             <div className="colourPicker">    
-                <ColourPicker /> 
+              
             </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import placeholder from '../assets/images/pic02.jpg'
+import Avatar from 'react-avatar-edit'
 
 const ImgPrev = () => {
     const [{alt, src}, setImg] = useState({
@@ -36,13 +37,11 @@ const ImgPrev = () => {
     <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
                     </svg> : null}
                     </label> 
-                <img src={src} alt={alt} className="form-img__img-preview"/> 
+            <img src={src} alt={alt} className="form-img__img-preview"/>  
             </div>
         </form>
     );
-}
+
+} 
 
 export default ImgPrev;
-/*
-
-*/

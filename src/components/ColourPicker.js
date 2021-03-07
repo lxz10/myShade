@@ -23,5 +23,8 @@ const ColourPicker = () => {
 
 export default ColourPicker;
 /*
-
+shades
+350
+360 - product page specific
+370
 */
