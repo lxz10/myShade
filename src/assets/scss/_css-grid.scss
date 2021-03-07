@@ -9,15 +9,14 @@
 	.grid-wrapper {
 		display: grid;
 		row-gap: 0.25em;
-		column-gap: 0.25em;
-		grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+		column-gap: 1%;
+		grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 		margin: 0 auto;
 		width: 100%;
 		
 	}
 	div.scrollmenu {
-		background-color: #ac8e83;
-		overflow: auto;
+		overflow-x: auto;
 		white-space: nowrap;
 	}
 	div.scrollmenu a {

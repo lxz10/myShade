@@ -91,8 +91,7 @@ const Elements = (props) => (
                             <div className="col-1"><span className="image fit"><img src={col7} alt="" /><div class="centered">#145</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col8} alt="" /><div class="centered">#150</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col9} alt="" /><div class="centered">#160</div></span></div>
-                            <div className="col-1"><span className="image fit"><img src={col10} alt="" /><div class="centered">#170</div></span></div></div>
-                            <div className="grid-wrapper">
+                            <div className="col-1"><span className="image fit"><img src={col10} alt="" /><div class="centered">#170</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col11} alt="" /><div class="centered">#180</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col12} alt="" /><div class="centered">#185</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col13} alt="" /><div class="centered">#190</div></span></div>
@@ -103,8 +102,6 @@ const Elements = (props) => (
                             <div className="col-1"><span className="image fit"><img src={col18} alt="" /><div class="centered">#235</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col19} alt="" /><div class="centered">#240</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col20} alt="" /><div class="centered">#250</div></span></div>
-                            </div>
-                            <div className="grid-wrapper">
                             <div className="col-1"><span className="image fit"><img src={col21} alt="hi" /><div class="centered">#255</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col22} alt="" /><div class="centered">#260</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col23} alt="" /><div class="centered">#270</div></span></div>
@@ -115,8 +112,6 @@ const Elements = (props) => (
                             <div className="col-1"><span className="image fit"><img src={col28} alt="" /><div class="centered">#320</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col29} alt="" /><div class="centered">#330</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col30} alt="" /><div class="centered3">#340</div></span></div>
-                            </div>
-                            <div className="grid-wrapper">
                             <div className="col-1"><span className="image fit"><img src={col31} alt="" /><div class="centered3">#345</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col32} alt="" /><div class="centered3">#350</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col33} alt="" /><div class="centered3">#360</div></span></div>
@@ -126,12 +121,10 @@ const Elements = (props) => (
                             <div className="col-1"><span className="image fit"><img src={col37} alt="" /><div class="centered3">#390</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col38} alt="" /><div class="centered3">#400</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col39} alt="" /><div class="centered3">#410</div></span></div>
-                            <div className="col-1"><span className="image fit"><img src={col40} alt="" /><div class="centered2">#420</div></span></div>
-                            </div>
-                            <div className="grid-wrapper">
-                            <div className="col-1"><span className="image fit"><img src={col41} alt="hi" /><div class="centered2">#430</div></span></div><div className="col-1"><span className="image fit"><img src={col42} alt=""/><div class="centered2">#440</div></span></div>
-                            <div className="col-1"><span className="image fit"><img src={col43} alt="" /><div class="centered2">#445</div></span></div>
-                            <div className="col-1"><span className="image fit"><img src={col44} alt="" /><div class="centered2">#450</div></span></div>
+                            <div className="col-1"><span className="image fit"><img src={col40} alt="" /><div class="centered3">#420</div></span></div>
+                            <div className="col-1"><span className="image fit"><img src={col41} alt="hi" /><div class="centered3">#430</div></span></div><div className="col-1"><span className="image fit"><img src={col42} alt=""/><div class="centered3">#440</div></span></div>
+                            <div className="col-1"><span className="image fit"><img src={col43} alt="" /><div class="centered3">#445</div></span></div>
+                            <div className="col-1"><span className="image fit"><img src={col44} alt="" /><div class="centered3">#450</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col45} alt="" /><div class="centered1">#460</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col46} alt="" /><div class="centered1">#470</div></span></div>
                             <div className="col-1"><span className="image fit"><img src={col47} alt="" /><div class="centered1">#480</div></span></div>
@@ -142,7 +135,7 @@ const Elements = (props) => (
                     </div>
             
                         <h1>Click On Your Shade To Find Out More</h1>
-                            <p><span className="image right"><img src={pic05} alt="" /></span>We recommend products, prices and influencers to help you find the best foundation for you.Foundation is a liquid or powder makeup applied to the face to create an even, uniform color to the complexion, cover flaws and, sometimes, to change the natural skin tone. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
+                            <p><span className="image right"><img src={pic05} alt="" /></span>We recommend products, prices and influencers to help you find the best foundation for you.Foundation is a liquid or powder makeup applied to the face to create an even, uniform color to the complexion, cover flaws and even the natural skin tone. Foundation provides an additional physical barrier against the sun, pollution, and free radical damage. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
 
                         </div>
                 
