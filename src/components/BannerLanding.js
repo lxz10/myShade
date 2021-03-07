@@ -1,4 +1,5 @@
 import React from 'react'
+import ShadeFinder from '../components/ShadeFinder'
 
 const BannerLanding = (props) => (
     <section id="banner" className="style2">

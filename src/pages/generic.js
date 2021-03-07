@@ -9,6 +9,9 @@ import pic01 from '../assets/images/col32.png'
 import n5 from '../assets/images/feed/n5.jpg'
 import a from '../assets/images/feed/1.jpg'
 import b from '../assets/images/feed/nowaste.png'
+import ob from '../assets/images/feed/ob.png'
+import uoma from '../assets/images/feed/uoma.jpg'
+import minted from '../assets/images/feed/minted.jpg'
 import pic02 from '../assets/images/youtube2.jpeg'
 import pic03 from '../assets/images/youtube3.jpg'
 
@@ -47,29 +50,31 @@ const Generic = (props) => (
                                 <h3>Kiitana</h3>
                                 <p>Fashion, beauty, lifestyle</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://www.instagram.com/kiitana/?hl=en" className="link primary"></Link>
                         </article>
-                        <article>
+                        <article style={{backgroundImage: `url(${uoma})`}}>
                             <header className="major">
-                                <h3>Don't know where to start with foundation?
-                                    Click to find out more</h3>
+                                <h3>UOMA - Say What?! Foundation</h3>
+                                <p>Click here to buy</p>
                             </header>
-                            <Link to="https://www.adorebeauty.com.au/make-up/foundation/guide/foundation-purpose" className="link primary"></Link>
+                            <Link to="https://uomabeauty.co.uk/products/say-what-foundation?variant=37128480194744" className="link primary"></Link>
                         </article>
-                        <article>
+                        <article style={{backgroundImage: `url(${ob})`}}>
                             <header className="major">
-                                <p>"Makeup lets me channel my personality, and reflect what I am feeling or thinking."</p>
+                                <h3>Only Bells</h3>
+                                <p>Beauty, lifestyle</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://www.youtube.com/c/OnlyBells/videos" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${b})`}}>
                             <Link to="https://www.goingzerowaste.com/blog/10-zero-waste-makeup-brands/" className="link primary"></Link>
                         </article>
-                        <article>
+                        <article style={{backgroundImage: `url(${minted})`}}>
                             <header className="major">
-                                <p>"I started using makeup and it's honestly so empowering. You can make your face look like whatever you want it to, and it's like a painting."</p>
+                                <h3>Skin by Minted</h3>
+                                <p>Click here to buy</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://www.mentedcosmetics.com/products/skin-by-mented?variant=18208782450753" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${n5})`}}>
                             <header className="major">
